@@ -15,7 +15,9 @@ Bash script to automate the cloning and pushing of files on github.
 6. -k   ---------------------- To keep or delete the clonned local repo after pushing. Allowed values "-k yes" or "-k no"
 
 ## Example
-pushtogit.sh -r "repo folder name" -f "file or folder name" -s add -k yes
+./pushtogit.sh -r "repo folder name" -f "file or folder name" -s add -k yes
+OR
+./pushtogit.sh -l "repo link" -f "file or folder name" -s add -k yes
 
 ## Note
 If https link is used for cloning the script will prompt to enter username and password of the git account to push the changes.
