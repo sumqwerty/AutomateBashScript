@@ -16,7 +16,7 @@ Bash script to automate the cloning and pushing of files on github.
 
 ## Example
 ./pushtogit.sh -r "repo folder name" -f "file or folder name" -s add -k yes
-OR
+### OR
 ./pushtogit.sh -l "repo link" -f "file or folder name" -s add -k yes
 
 ## Note
