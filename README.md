@@ -19,3 +19,5 @@ pushtogit.sh -n "repo folder name" -f "file or folder name" -s add -k yes
 ## Note
 If https link is used for cloning the script will prompt to enter username and password of the git account to push the changes.
 To avoid that SSH key can be used.
+
+![Demo](https://github.com/sumqwerty/AutomateBashScript/blob/master/demo.gif)
