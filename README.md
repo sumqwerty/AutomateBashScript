@@ -6,8 +6,8 @@ Bash script to automate the cloning and pushing of files on github.
 2. Now move the shell script to "/usr/local/bin" so you can use it as a command
 
 ## Arguements
-1. -r   ---------------------- SSH key link of the github repository to be clonned.
-2. -n   ---------------------- Name of the repository folder, if is already clonned.
+1. -l   ---------------------- SSH key link of the github repository to be clonned.
+2. -r   ---------------------- Name of the repository folder, if is already clonned.
 3. -f   ---------------------- Name of the file or folder to be pushed or removed.
 4. -c   ---------------------- Comment when commiting the file, by default its "Program File"
 5. -s   ---------------------- state if you want to add a file or delete a exisiting file. 
