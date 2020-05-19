@@ -2,16 +2,14 @@
 
 #to clone and push changes in repo, need login because this script uses SSH key
 
-while getopts r:f:c:s:k:n: option
-do
-case "${option}"
-in
-r) link=${OPTARG};; #repoLink
+while getopts l:f:c:s:k:r: option;do
+case "${option}" in
+l) link=${OPTARG};; #repoLink
 f) programFile=${OPTARG};; #filename
 c) comment=${OPTARG};; #comment
 s) change=${OPTARG};; #add or del
 k) KeepOrNot=${OPTARG};; #keep the local repo or not
-n) LrepoName=${OPTARG};; #if already cloned then use this not the link
+r) LrepoName=${OPTARG};; #if already cloned then use this not the link
 esac
 done
 
@@ -70,6 +68,6 @@ git commit -m "$comment"
 git push origin master
 cd ..
 if [ $KeepOrNot == "no" ];then
-    rm -rf $repoFolder
-    echo "Deleted"
+	rm -rf $repoFolder
+	echo "Clear"
 fi
