@@ -71,3 +71,5 @@ if [ $KeepOrNot == "no" ];then
 	rm -rf $repoFolder
 	echo "Clear"
 fi
+
+echo "Done"
