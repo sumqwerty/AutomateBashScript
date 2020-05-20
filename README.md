@@ -13,7 +13,7 @@ Bash script to automate the cloning and pushing of files on github.
 5. -s   ---------------------- state if you want to add a file or delete a exisiting file. 
                             "-s add" to add or change file and "-s del" to remove file.
 6. -k   ---------------------- To keep or delete the clonned local repo after pushing. Allowed values "-k yes" or "-k no"
-
+7. -h   ---------------------- Show help.
 ## Example
 ./pushtogit.sh -r "repo folder name" -f "file or folder name" -s add -k yes
 ### OR
