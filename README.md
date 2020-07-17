@@ -20,6 +20,6 @@ Bash script to automate the cloning and pushing of files on github.
 ./pushtogit.sh -l "repo link" -f "file or folder name" -s add -k yes
 
 ## Note
-If https link is used for cloning the script will prompt to enter username and password of the git account to push the changes.
+If https link is used for cloning, the script will prompt to enter username and password of the git account to push the changes.
 To avoid that SSH key can be used.
 
